@@ -1,0 +1,29 @@
+# Site Settings
+
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed]
+
+# Customise feed settings (uncommenting following two fields to customise feed title and description)
+title:		     "IT-lift"
+description:	 "Делимся полезностями"
+
+host: 0.0.0.0
+port: 3000
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - vendor
+  - bin
+  - CNAME
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - LICENSE
+  - docker-compose.yml

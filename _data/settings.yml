@@ -1,0 +1,26 @@
+title:  IT-lift
+tagline:  Делимся полезностями
+
+disqus:
+  comments: true
+  disqus_shortname: 'sevenbits'
+
+analytics:
+  yandex:
+    id: 47782252
+  google:
+    id:
+
+google-ID:
+
+menu:
+
+social:
+  youtube:
+    link: https://www.youtube.com/channel/UCSRXBJAXUzMvR2zeG5jF6MQ
+  email:
+    link: mailto:aloha@7bits.it
+  vk:
+    link: https://vk.com/itliftomsk
+  web:
+    link: http://courses.itlft.ru/
