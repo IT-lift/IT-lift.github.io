@@ -1,6 +1,6 @@
 # Blog
 
-[![Build Status](https://travis-ci.org/IT-lift/IT-lift.github.io.svg)](https://travis-ci.org/IT-lift/IT-lift.github.io)
+[![Build Status](https://travis-ci.org/IT-lift/IT-lift.github.io.svg?branch=master)](https://travis-ci.org/IT-lift/IT-lift.github.io)
 
 We use [jekyll](https://jekyllrb.com) static site generator which supports [github pages](https://pages.github.com/). So this blog is hosted on github.
 
