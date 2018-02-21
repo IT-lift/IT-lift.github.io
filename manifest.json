@@ -1,8 +1,8 @@
 {
-    "name": "7bits",
-    "short_name": "7bits",
+    "name": "{{ site.title }}",
+    "short_name": "{{ site.title }}",
     "lang": "ru_RU",
-    "description": "О работе и жизни компании",
+    "description": "{{ site.description }}",
     "icons": [
         {
             "src": "/favicon-16x16.png",
@@ -37,6 +37,6 @@
     "orientation": "any",
     "related_applications": [{
       "platform": "web",
-      "url": "https://7bits.github.io/"
+      "url": "{{ site.url }}"
     }]
 }
