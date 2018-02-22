@@ -1,11 +1,11 @@
-{% if site.data.settings.analytics.yandex.id %}
+{% if site.analytics.yandex.id %}
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
   (function (d, w, c) {
     (w[c] = w[c] || []).push(function() {
       try {
-        w.yaCounter{{ site.data.settings.analytics.yandex.id }} = new Ya.Metrika({
-        id:{{ site.data.settings.analytics.yandex.id }},
+        w.yaCounter{{ site.analytics.yandex.id }} = new Ya.Metrika({
+        id:{{ site.analytics.yandex.id }},
         clickmap:true,
         trackLinks:true,
         accurateTrackBounce:true});
@@ -24,7 +24,7 @@
 </script>
 <noscript>
   <div>
-    <img src="//mc.yandex.ru/watch/{{ site.data.settings.analytics.yandex.id }}" style="position:absolute; left:-9999px;" alt="" />
+    <img src="//mc.yandex.ru/watch/{{ site.analytics.yandex.id }}" style="position:absolute; left:-9999px;" alt="" />
   </div>
 </noscript>
 <!-- /Yandex.Metrika counter -->
