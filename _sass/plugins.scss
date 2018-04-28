@@ -12,6 +12,17 @@
   width: 140px;
   height: 140px;
 }
+.author__label {
+  display: inline-block;
+  font-size: 0.6875em;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0 11px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #c17ff2;
+  margin-bottom: 5px;
+}
 .author__author {
   font-size: 1.125em;
   margin-bottom: 0.5em;
@@ -23,9 +34,8 @@
   font-weight: 300;
 }
 .author__intro {
-  font-size: 1.5em;
+  font-size: 1.125em;
   font-weight: 400;
-  line-height: calc(4em / 3);
   text-align: left;
   padding-right: 2.5em;
 }

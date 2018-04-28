@@ -33,24 +33,25 @@ module Jekyll
       rescue
       end
 
-      output = "<div class=\"author\">"
-      output += "<div class=\"author__content\">"
-      output += "<img src=\"#{baseurl}#{photo}\" width=\"140\" height=\"140\" class=\"author__photo\">"
-      output += "<div>"
-      output += "<div class=\"author__author\">"
-      output += "<span class=\"author__name\">#{author}"
-      if( !position.empty? )
-        output += ",&nbsp;"
-      end 
-      output += "</span>"
-      output += "<span class=\"author__position\">#{position}</span>"
-      output += "</div>"
-      output += "<div class=\"author__intro\">"
-      output += "#{text}" 
-      output += "</div>"
-      output += "</div>"
-      output += "</div>"
-      output += "</div>"
+      output =
+        "<div class=\"author\">"\
+          "<div class=\"author__content\">"\
+            "<img src=\"#{baseurl}#{photo}\" width=\"140\" height=\"140\" class=\"author__photo\">"\
+            "<div>"\
+              "<span class=\"author__label\">Автор поста</span>"\
+              "<div class=\"author__author\">"\
+                "<span class=\"author__name\">#{author}"
+      if( !position.nil? && !position.empty? )
+        output +=",&nbsp;"
+      end
+      output +=
+                "</span>"\
+                "<span class=\"author__position\">#{position}</span>"\
+              "</div>"\
+              "<div class=\"author__intro\">#{text}</div>"\
+            "</div>"\
+          "</div>"\
+        "</div>"
     
       return output;
     end
