@@ -4,7 +4,7 @@
  <title>The blog of IT-lift</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2018-04-28T10:23:39+00:00</updated>
+ <updated>2018-04-28T10:32:48+00:00</updated>
  <id></id>
  <author>
    <name>IT-lift</name>
@@ -17,7 +17,7 @@
    <link href="/students-meetings-2018-01-09-1.html"/>
    <updated>2018-03-31T12:00:00+00:00</updated>
    <id>/students-meetings-2018-01-09-1</id>
-   <content type="html">&lt;div class=&quot;author&quot;&gt;&lt;div class=&quot;author__content&quot;&gt;&lt;img src=&quot;/assets/images/2018/04/anna.jpg&quot; width=&quot;140&quot; height=&quot;140&quot; class=&quot;author__photo&quot; /&gt;&lt;div&gt;&lt;span class=&quot;author__label&quot;&gt;Автор поста&lt;/span&gt;&lt;div class=&quot;author__author&quot;&gt;&lt;span class=&quot;author__name&quot;&gt;Анна Тарасенко,&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;author__position&quot;&gt;рулевой 7bits &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author__intro&quot;&gt;Новый 2018&amp;nbsp;год начался встречей со&amp;nbsp;студенткой, которую почему-то интересовал мой&amp;nbsp;путь в&amp;nbsp;ИТ.&lt;br /&gt; Ну, в&amp;nbsp;общем-то, почему&amp;nbsp;бы&amp;nbsp;и не&amp;nbsp;написать об&amp;nbsp;этом?&lt;br /&gt; Думаю, что кое-какие лайфхаки из&amp;nbsp;этого рассказа вы почерпнете.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+   <content type="html">&lt;div class=&quot;author&quot;&gt;&lt;div class=&quot;author__content&quot;&gt;&lt;img src=&quot;/assets/images/2018/04/anna.jpg&quot; width=&quot;140&quot; height=&quot;140&quot; class=&quot;author__photo&quot; /&gt;&lt;div&gt;&lt;span class=&quot;author__label&quot;&gt;Автор поста &lt;/span&gt;&lt;div class=&quot;author__author&quot;&gt;&lt;span class=&quot;author__name&quot;&gt;Анна Тарасенко,&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;author__position&quot;&gt;рулевой 7bits &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author__intro&quot;&gt;Новый 2018&amp;nbsp;год начался встречей со&amp;nbsp;студенткой, которую почему-то интересовал мой&amp;nbsp;путь в&amp;nbsp;ИТ.&lt;br /&gt; Ну, в&amp;nbsp;общем-то, почему&amp;nbsp;бы&amp;nbsp;и не&amp;nbsp;написать об&amp;nbsp;этом?&lt;br /&gt; Думаю, что кое-какие лайфхаки из&amp;nbsp;этого рассказа вы почерпнете.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Начинать надо, видимо, со школы. Программировать я начала с 6-го класса в кружке «Программист» во Дворце пионеров (теперь Городской дворец творчества). В том самом известном многим 16-м кабинете. Для конца 80-х годов это было довольно рано, тогда еще не было компьютеров в каждой школе, а уж тем более в каждой семье. Поэтому мы очень много работали с бумагой: писали код дома, проверяя его в бумажно-мысленном отладчике. Возможность ввести заранее написанный в тетради код в реальный компьютер была всего полтора часа один раз в неделю. Это очень дисциплинировало, ведь времени на поиск ошибок непосредственно за компьютером почти не оставалось. Надо было быть уверенным, что те несколько сот или даже тысяч строк кода, которые ты написал дома за неделю, будут работать сразу. А потом ты копировал код на дискету, делал распечатку текущей версии и уходил с этим домой, работать над кодом дальше с карандашом и резинкой.&lt;/p&gt;
 
