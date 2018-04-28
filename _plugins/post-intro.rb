@@ -38,7 +38,7 @@ module Jekyll
           "<div class=\"author__content\">"\
             "<img src=\"#{baseurl}#{photo}\" width=\"140\" height=\"140\" class=\"author__photo\">"\
             "<div>"\
-              "<span class=\"author__label\">Автор поста</span>"\
+              "<span class=\"author__label\">Автор поста </span>"\
               "<div class=\"author__author\">"\
                 "<span class=\"author__name\">#{author}"
       if( !position.nil? && !position.empty? )
