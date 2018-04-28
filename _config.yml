@@ -21,7 +21,6 @@ exclude:
   - .gitignore
   - vendor
   - bin
-  - CNAME
   - Gemfile.lock
   - Rakefile
   - README.md
