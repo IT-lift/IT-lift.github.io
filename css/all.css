@@ -564,12 +564,13 @@ blockquote p {
   padding: 0;
   list-style: none; }
 
-.post-date {
+.post-written-by {
   display: block;
   margin-top: 3px;
   margin-bottom: 1rem;
   color: #c07ff2; }
 
+.post-date,
 .post-share {
   display: block;
   margin-top: 3px;
