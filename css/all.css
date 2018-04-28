@@ -568,6 +568,12 @@ blockquote p {
   display: block;
   margin-top: 3px;
   margin-bottom: 1rem;
+  color: #c07ff2; }
+
+.post-share {
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 1rem;
   color: #9a9a9a;
   font-size: 0.8rem; }
 
@@ -1201,3 +1207,71 @@ pre {
 .css .o + .nt,
 .css .nt + .nt {
   color: #999; }
+
+/* Post Intro */
+.author__content {
+  margin: 1.75em 0;
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #333; }
+
+.author__photo {
+  border-radius: 5px;
+  margin-right: 1.125em;
+  width: 140px;
+  height: 140px; }
+
+.author__author {
+  font-size: 1.125em;
+  margin-bottom: 0.5em; }
+
+.author__name {
+  font-weight: bold; }
+
+.author__position {
+  font-weight: 300; }
+
+.author__intro {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: calc(4em / 3);
+  text-align: left;
+  padding-right: 2.5em; }
+
+.author:after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #c07ff2; }
+
+/* Post Intro end */
+/* Post Quote */
+.post-quote {
+  padding: 1.5em 3em 1.5em 94px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 1.75em;
+  background-color: #faf4ff;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAbCAMAAAAj8t3SAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAM1BMVEUAAADAf/LAf/LAf/LAf/LAf/LAf/LAf/LAf/LAf/LAf/LAf/LAf/LAf/LAf/LAf/L///+ardhYAAAAD3RSTlMAmWa7RBEi7nfMiKrdM1XVZF6uAAAAAWJLR0QQlbINLAAAANNJREFUKM+Nk0kWxCAIBTVxzCD3v206ET+Im3aXeijllzjXl6e+Noe1MwoDRAYUUZOYZJDCpMpBB6MT5GJSpChbFEa3GzXbgs6lP7SrdVT974EOq62UhjY1qy0BxGxRI9tftHfrKP1dtQLQlv6IBAHAkdIo8mSV4IjnjUL49KYIK5QFnZp0h31Cae7GmceJkNd360s/CR40mKJkLL8b2qKg4sa++5+TjGVexfMSgV8jOJa7pPnp3oPSNBZIfIq8mXmSMcDGDBTLOz+1yJ/5Q9eHvo8HqZgjVtMAMa4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDQtMjRUMTg6MjU6MTErMDA6MDA5y+PZAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA0LTI0VDE4OjI1OjExKzAwOjAwSJZbZQAAAABJRU5ErkJggg==");
+  background-position: 1.75em 1.75em;
+  background-repeat: no-repeat; }
+
+.post-quote__quote {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #626262; }
+
+.post-quote-author {
+  margin-top: 0.75em;
+  font-size: 1.125em;
+  color: #c07ff2; }
+
+.post-quote-author__name {
+  font-weight: bold; }
+
+.post-quote-author__position {
+  font-weight: 300; }
+
+/* Post Quote end */
