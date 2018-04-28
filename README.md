@@ -48,4 +48,18 @@ In the `_layouts` are layouts - it's "bacground" pages. In the `_posts` you can 
 
 In the `_includes` are partials. For example, header, footer, discuss block and so on.
 
+In the `_plugins` are custom tags.
+
 In the `_config.yml` you can put some variables, for example email, social network links, domain name and so on.
+
+## How to use custom tags
+
+Post intro:
+
+```{% post_intro {"photo":"/assets/images/2018/04/anna.jpg", "name":"Анна Тарасенко","position":"рулевой 7bits","text":"Новый 2018&nbsp;год начался встречей со&nbsp;студенткой, которую почему-то интересовал мой&nbsp;путь в&nbsp;ИТ.<br>Ну, в&nbsp;общем-то, почему&nbsp;бы&nbsp;и не&nbsp;написать об&nbsp;этом?<br>Думаю, что кое-какие лайфхаки из&nbsp;этого рассказа вы почерпнете."} %}​
+```
+
+Post quote:
+
+```{% post_quote {"name":"Анна Тарасенко","position":"рулевой 7bits","text":"Это было выживание, потому что зарплата у меня была 1100 рублей в месяц (и это потому, что красный диплом! а то была бы 1000)."} %}
+```
